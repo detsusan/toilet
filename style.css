@@ -1,0 +1,30 @@
+
+#tdv5{font-family:system-ui,-apple-system,sans-serif;background:#20263e;color:white;border-radius:15px;padding:10px;max-width:450px;margin:auto;overflow:hidden;box-sizing:border-box}
+#tdv5 *{box-sizing:border-box}#tdv5 button,#tdv5 select{touch-action:manipulation;font:inherit;cursor:pointer}
+#tdv5 .title{font-size:18px;font-weight:900;text-align:center;color:#ffe0a6;margin-bottom:8px;line-height:1.5}
+#tdv5 .stats{display:flex;justify-content:space-between;font-size:11px;gap:4px;margin-bottom:7px}
+#tdv5 .stat{background:#14192d;border:1px solid #65708f;border-radius:7px;padding:6px 5px;white-space:nowrap}
+#tdv5 .status{display:flex;gap:8px;margin-bottom:7px;align-items:stretch}
+#tdv5 .gauge{background:#48304e;border:1px solid #ed9ac6;border-radius:9px;padding:7px 9px;flex:1;font-size:12px;font-weight:800}
+#tdv5 .track{margin-top:5px;background:#20192e;border-radius:10px;border:1px solid #ffd1e7;overflow:hidden;height:12px}
+#tdv5 .fill{height:100%;width:100%;background:linear-gradient(90deg,#ff509a,#ffa6c9)}
+#tdv5 .start{background:#f5cc80;border:0;color:#352645;padding:6px 13px;font-weight:900;border-radius:9px}
+#tdv5 .field{position:relative;border:2px solid #adc5c2;border-radius:11px;overflow:hidden;background:linear-gradient(#8fc4d4,#a3cda3 32%,#4b926b);aspect-ratio:360/390;width:100%}
+#tdv5 .field svg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+#tdv5 .plot{position:absolute;transform:translate(-50%,-50%);width:38px;height:38px;border:2px dashed #fdf0b2;background:#293e58a8;color:white;font-size:24px;border-radius:50%;z-index:3;display:grid;place-items:center;padding:0}
+#tdv5 .plot.used{background:#34435fef;border-style:solid;font-size:22px}
+#tdv5 .hero{position:absolute;width:52px;height:71px;z-index:4;transform:translate(-50%,-77%);pointer-events:none;object-fit:contain}
+#tdv5 .puddle{position:absolute;display:none;width:62px;height:17px;border-radius:50%;border:2px solid #fff;background:#82d8f0a8;transform:translate(-50%,-50%);z-index:3}
+#tdv5 .banner{display:none;position:absolute;top:42%;left:8%;width:84%;text-align:center;background:#483b77ec;border:2px solid #fff0a6;border-radius:12px;color:#fff5aa;font-weight:900;font-size:20px;padding:12px 2px;z-index:7}
+#tdv5 .dialog{display:flex;align-items:center;gap:10px;background:#f4e5d1;color:#392d47;padding:9px;border-radius:9px;margin:8px 0;min-height:90px}
+#tdv5 .face{width:73px;height:78px;flex:none;display:grid;place-items:center;border-radius:9px;border:2px solid #bc8fba;background:#dfc5d5;overflow:hidden}
+#tdv5 .say{font-size:13px;line-height:1.5;font-weight:800}
+#tdv5 .speaker{font-size:11px;color:#99568c;margin-bottom:5px}
+#tdv5 .items{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px}
+#tdv5 .items button{min-height:75px;border:2px solid #697695;border-radius:9px;background:#353e5b;color:#fff;padding:6px 2px;font-size:11px;font-weight:800;line-height:1.35}
+#tdv5 .items button.active{border-color:#7ce6ff;background:#245b81}
+#tdv5 .items .ico{font-size:23px;display:block;margin-bottom:3px}
+#tdv5 .items .price{color:#ffde99;display:block;margin-top:3px}
+#tdv5 .controls{display:flex;gap:6px;margin-top:9px}#tdv5 .controls button{background:#344967;color:#fff;border:1px solid #8796c0;border-radius:8px;padding:10px 3px;flex:1;font-size:12px}
+#tdv5 .note{min-height:18px;margin-top:8px;text-align:center;font-size:11px;color:#ffe1a1}
+#tdv5 .goal{position:absolute;right:3%;top:1%;z-index:2;font-size:26px;text-align:center;line-height:1}.goal small{display:block;font-size:9px;font-weight:900}
