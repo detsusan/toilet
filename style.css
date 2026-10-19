@@ -28,3 +28,5 @@
 #tdv5 .controls{display:flex;gap:6px;margin-top:9px}#tdv5 .controls button{background:#344967;color:#fff;border:1px solid #8796c0;border-radius:8px;padding:10px 3px;flex:1;font-size:12px}
 #tdv5 .note{min-height:18px;margin-top:8px;text-align:center;font-size:11px;color:#ffe1a1}
 #tdv5 .goal{position:absolute;right:3%;top:1%;z-index:2;font-size:26px;text-align:center;line-height:1}.goal small{display:block;font-size:9px;font-weight:900}
+
+#tdv5 .ice-bullet{position:absolute;width:16px;height:10px;pointer-events:none;z-index:5;border:1px solid #f3feff;clip-path:polygon(0 50%,25% 0,76% 12%,100% 50%,76% 88%,25% 100%);background:linear-gradient(90deg,#b5f4ff88,#e9fdff 55%,#64d7ff);box-shadow:-4px 0 5px #9decffb3,0 0 5px #c9f7ff;will-change:left,top,transform}
